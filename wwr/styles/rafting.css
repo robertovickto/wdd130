@@ -1,0 +1,163 @@
+:root {
+
+    --page-background-color: lightblue;
+    --primary-text-color: black;
+    --secondary-background-color: rgb(223, 23, 23);
+    --primary-padding: 5px;
+    --primary-margin: 5px;
+    --heading-font-family: Calibri, "Trebuchet MS", sans-serif;
+    --body-font-family: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: var(--body-font-family);
+    color: var(--primary-text-color);
+    background-color: var(--page-background-color);
+    margin: 0;
+
+}
+
+header {
+
+    margin: var(--primary-margin);
+    padding: var(--primary-padding);
+    border-bottom: 2px dotted var(--secondary-background-color);
+}
+
+header img {
+
+    width: 100px;
+    height: 0 auto;
+
+}
+
+header nav a {
+
+    display: block;
+    text-decoration: none;
+
+}
+
+main {
+
+    margin: 10px;
+}
+
+header,
+main,
+footer {
+
+    width: 840px;
+    margin: 0 auto;
+
+}
+
+div {
+
+    margin: 20px;
+}
+
+h1,
+h2 {
+
+    font-family: var(--heading-font-family);
+    color: var(--secondary-background-color);
+    padding: var(--primary-padding);
+    margin: var(--primary-margin);
+
+}
+
+nav,
+p,
+section,
+article {
+
+    margin: var(--primary-margin);
+    padding: var(--primary-padding);
+
+}
+
+.socialmedia a {
+
+    text-decoration: none;
+
+}
+
+.hero {
+
+    position: relative;
+
+}
+
+.hero img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.hero article img {
+
+    float: right;
+    width: 125px;
+
+}
+
+h1 {
+
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--page-background-color);
+
+}
+
+article {
+
+    position: absolute;
+    width: 100%;
+    padding: var(--primary-padding);
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--page-background-color);
+    top: 100px;
+
+}
+
+.socialmedia {
+
+    position: absolute;
+    width: 2%;
+    padding: 5px;
+    text-align: left;
+    opacity: 0.7;
+    background-color: var(--page-background-color);
+
+}
+
+.highlight {
+
+    font-weight: bold;
+    color: var(--secondary-background-color);
+}
+
+footer {
+
+    margin: var(--primary-margin);
+    padding: var(--primary-padding);
+    border-top: 2px dotted var(--secondary-background-color);
+}
