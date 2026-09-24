@@ -121,7 +121,7 @@ h1 {
     width: 100%;
     padding: 10px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--page-background-color);
 
 }
@@ -132,7 +132,7 @@ h1 {
     width: 100%;
     padding: var(--primary-padding);
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--page-background-color);
     top: 100px;
 
