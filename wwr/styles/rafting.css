@@ -68,7 +68,7 @@ footer {
 
 div {
 
-    margin: 20px;
+    margin: 10px;
 }
 
 h1,
@@ -76,9 +76,6 @@ h2 {
 
     font-family: var(--heading-font-family);
     color: var(--secondary-background-color);
-    padding: var(--primary-padding);
-    margin: var(--primary-margin);
-
 }
 
 h1 {
@@ -94,9 +91,7 @@ h1 {
 }
 
 nav,
-p,
-section,
-article {
+p {
 
     margin: var(--primary-margin);
     padding: var(--primary-padding);
@@ -268,8 +263,14 @@ footer {
 
 }
 
+.section2-grid figure {
 
-.section2-grid picture {
+    text-align: center;
+
+}
+
+
+.section2-grid figure img {
 
     width: 100px;
     height: auto;
@@ -279,6 +280,6 @@ footer {
 
 .section2-grid figcaption {
 
-    text-align: center;
     padding: 5px;
+
 }
