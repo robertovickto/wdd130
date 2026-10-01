@@ -2,7 +2,7 @@
 
     --page-background-color: white;
     --primary-text-color: black;
-    --secondary-background-color: rgb(223, 23, 23);
+    --secondary-background-color: red;
     --primary-padding: 5px;
     --primary-margin: 5px;
     --heading-font-family: Calibri, "Trebuchet MS", sans-serif;
@@ -75,7 +75,7 @@ h1,
 h2 {
 
     font-family: var(--heading-font-family);
-    color: var(--secondary-background-color);
+    color: navy;
 }
 
 h1 {
@@ -218,7 +218,7 @@ footer {
 .highlight {
 
     font-weight: bold;
-    color: var(--secondary-background-color);
+    color: var(--primary-text-color);
 
 }
 
